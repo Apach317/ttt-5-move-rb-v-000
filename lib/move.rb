@@ -9,13 +9,9 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
-  index = user_input.to_i - 1
+  index = user_input.to_i
 end
 
 def move(board, index, value = "X")
   board[index] = value
-end
-
-def user_info
-  puts "Where would you like to go?"
 end
