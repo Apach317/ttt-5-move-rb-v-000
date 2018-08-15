@@ -14,7 +14,7 @@ end
 
 def move(board, index, value = "X")
   board[index] = value
-  value - 1
+  value= value - 1
 end
 
 def user_info
