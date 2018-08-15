@@ -19,3 +19,7 @@ end
 def user_info
   puts "Where would you like to go?"
 end
+
+def board
+  puts [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+end
